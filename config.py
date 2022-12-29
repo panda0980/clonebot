@@ -24,7 +24,7 @@ class Config(object):
     TG_USER_SESSION = os.environ.get("TG_USER_SESSION", "BQBtDYfn0sUsI76Bhk6Ez-9Jx-Px-_TP50c4ZdXifWRdwVRcCXSvGSdXQ53X4aqdq0Wp5ptiSA-ql0waGMHDCQ_-NZmGvU4HkAGaMJvbg8FTgB6d9J3iBxFyeWmZ8t8CRe2jSyF7vvQ568FEGJ8cnoa8yreNhVJNxK_C8g3n1MHpt2jX0iwoPnwYByCl6o7zKIUyW3CFd0LP-o3h5tFrq3IDBgpnpUiVyfNdXSJ-q0jdeegbrEq-6ApotTWxS580NpbW1iq3fw21sBYrDvcFFxmhcx3uK5EIkvEJ4MLNoClQt9JSYtmgHNiKDBpIvSgwbIFX9dgBIBtSSbBxNb_e64X5djpEVgA")
 
     # Database URI
-    DB_URI = os.environ.get("DATABASE_URL", "sqlite:///sqlalchemy.sqlite")
+    DB_URI = os.environ.get("DATABASE_URL", "postgres://rraexkat:WoJSlT-mN0vR5OokJXmpr3omKR2kx4wY@berry.db.elephantsql.com/rraexkat")
 
 
 def LOGGER(name: str) -> logging.Logger:
