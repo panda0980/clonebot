@@ -21,7 +21,7 @@ class Config(object):
     API_HASH = os.environ.get("API_HASH", "8e409e260f1d80f0ead65da912ee07bb")
 
     # Generate a user session string
-    TG_USER_SESSION = os.environ.get("TG_USER_SESSION", "BQBtDYfn0sUsI76Bhk6Ez-9Jx-Px-_TP50c4ZdXifWRdwVRcCXSvGSdXQ53X4aqdq0Wp5ptiSA-ql0waGMHDCQ_-NZmGvU4HkAGaMJvbg8FTgB6d9J3iBxFyeWmZ8t8CRe2jSyF7vvQ568FEGJ8cnoa8yreNhVJNxK_C8g3n1MHpt2jX0iwoPnwYByCl6o7zKIUyW3CFd0LP-o3h5tFrq3IDBgpnpUiVyfNdXSJ-q0jdeegbrEq-6ApotTWxS580NpbW1iq3fw21sBYrDvcFFxmhcx3uK5EIkvEJ4MLNoClQt9JSYtmgHNiKDBpIvSgwbIFX9dgBIBtSSbBxNb_e64X5djpEVgA")
+    TG_USER_SESSION = os.environ.get("TG_USER_SESSION", "BQCyFxgAIfecVy9WKjKG_6YuJ2e7ew5XhMDzyVDWS8o4qoYEhqgsQoMgbRtvycpDsHKTtoempjnDHOmex2sfr1YC730n0bK7sF0-pTGvmR3YjFQT-sVq1yYhLZWE-OPb1QVEG2sTlsKvyLyEbAPMV0pMoN5-dsF2Vnt-zKixaaIV_vinDKy1jUM4XnyOz-kz5lXaw7b0ei8SDm67-BM6bLjP66ASLG0U3KrilNipsNhKxs_vGLrAqkFCl0FAADMF7-Rdex7uC5Zp9M0sg0kxqOUtw1i2lJTT71epChlP4PMPh8n6QtZ-Fy0LQBRYNCz8ip_ejE7V5gvtHAp5GUI3A0J7EbFIqQAAAAB2OkRWAA")
 
     # Database URI
     DB_URI = os.environ.get("DATABASE_URL", "postgres://rraexkat:WoJSlT-mN0vR5OokJXmpr3omKR2kx4wY@berry.db.elephantsql.com/rraexkat")
